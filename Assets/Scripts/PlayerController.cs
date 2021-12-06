@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 [RequireComponent(typeof(Rigidbody))]
 public class PlayerController : MonoBehaviour
@@ -14,12 +15,15 @@ public class PlayerController : MonoBehaviour
     Rigidbody rb;
     public float xRotation;
 
+    StudioEventEmitter motorAudio;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody>();
         rb.centerOfMass = Vector3.zero;
         Cursor.lockState = CursorLockMode.Locked;
+        motorAudio = GetComponent<StudioEventEmitter>();
     }
 
     // Update is called once per frame
@@ -83,6 +87,8 @@ public class PlayerController : MonoBehaviour
         posY /= legs.Length;
 
         transform.position = new Vector3(transform.position.x, posY + restHeight, transform.position.z);
+        //motorAudio.SetParameter("Velocity", Mathf.Max(0, Mathf.Min(1, rb.velocity.magnitude / 1)));
+        //Debug.Log(rb.velocity.magnitude);
     }
 
     float CannonUpdate(Vector3 objPos)

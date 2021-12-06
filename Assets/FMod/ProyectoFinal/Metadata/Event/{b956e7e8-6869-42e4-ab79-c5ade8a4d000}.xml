@@ -2,7 +2,7 @@
 <objects serializationModel="Studio.02.01.00">
 	<object class="Event" id="{b956e7e8-6869-42e4-ab79-c5ade8a4d000}">
 		<property name="name">
-			<value>TankShot</value>
+			<value>TankShootsBullet</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
@@ -103,6 +103,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerGroup" id="{cee8a9b7-bf80-43e4-a1eb-eaa7f18f2488}">
+		<property name="volume">
+			<value>-3</value>
+		</property>
 		<property name="name">
 			<value>Audio 1</value>
 		</property>
