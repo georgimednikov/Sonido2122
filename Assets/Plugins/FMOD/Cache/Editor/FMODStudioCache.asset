@@ -15,11 +15,53 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637733880023433563
+  lastModified: 637743933757922872
   FileSizes:
   - Name: Desktop
-    Value: 742
+    Value: 904
   Exists: 1
+--- !u!114 &-4547847469423395886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c18180ecb35941f4682ae60107b85b7c, type: 3}
+  m_Name: bank:/TankEvents.bank
+  m_EditorClassIdentifier: 
+  Path: Assets/FMod/ProyectoFinal/Build/Desktop/TankEvents.bank
+  Name: TankEvents
+  StudioPath: bank:/TankEvents
+  lastModified: 637743933758173105
+  FileSizes:
+  - Name: Desktop
+    Value: 90880
+  Exists: 1
+--- !u!114 &-390367276823377608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TanqueMotor
+  m_EditorClassIdentifier: 
+  Path: event:/TanqueMotor
+  guid: 696dc90f87932840bac0d34902268014
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1719
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -35,15 +77,42 @@ MonoBehaviour:
   EditorBanks:
   - {fileID: -5765972509641133979}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   EditorEvents:
-  - {fileID: 5480012397006559854}
+  - {fileID: 4616150843175162592}
+  - {fileID: 6980179279623920480}
+  - {fileID: 6261479680354543101}
   EditorParameters: []
   MasterBanks:
   - {fileID: 8123522868498872635}
   StringsBanks:
   - {fileID: -5765972509641133979}
-  stringsBankWriteTime: 637733880023433563
+  stringsBankWriteTime: 637743933757922872
   cacheVersion: 8
+--- !u!114 &4616150843175162592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TankMotor
+  m_EditorClassIdentifier: 
+  Path: event:/TankMotor
+  guid: a185fe5beb03f54dadf9a7626d1d7690
+  Banks:
+  - {fileID: -4547847469423395886}
+  - {fileID: 8123522868498872635}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1719
 --- !u!114 &5480012397006559854
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -58,8 +127,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Path: event:/Test
   guid: 2d136d5f54ae904aa3b34b1461d92b0d
-  Banks:
-  - {fileID: 8123522868498872635}
+  Banks: []
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
@@ -67,6 +135,52 @@ MonoBehaviour:
   MinDistance: 0
   MaxDistance: 0
   Length: 500
+--- !u!114 &6261479680354543101
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TankShot
+  m_EditorClassIdentifier: 
+  Path: event:/TankShot
+  guid: e8e756b96968e442ab79c5ade8a4d000
+  Banks:
+  - {fileID: -4547847469423395886}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700
+--- !u!114 &6980179279623920480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/BackgroundMusic
+  m_EditorClassIdentifier: 
+  Path: event:/BackgroundMusic
+  guid: 73c4381d3ab76e42abf85c16aa9045e9
+  Banks:
+  - {fileID: 8123522868498872635}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 231798
 --- !u!114 &8123522868498872635
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -82,8 +196,30 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637733880023413549
+  lastModified: 637743933757902841
   FileSizes:
   - Name: Desktop
-    Value: 25696
+    Value: 2486944
   Exists: 1
+--- !u!114 &9216151184348430665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/TankBullet
+  m_EditorClassIdentifier: 
+  Path: event:/TankBullet
+  guid: e8e756b96968e442ab79c5ade8a4d000
+  Banks: []
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 1
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 700

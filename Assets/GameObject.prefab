@@ -1081,6 +1081,7 @@ GameObject:
   - component: {fileID: 2046546219559431206}
   - component: {fileID: 2046546219559431213}
   - component: {fileID: 2046546219559431212}
+  - component: {fileID: 1521233370}
   m_Layer: 0
   m_Name: Ass
   m_TagString: Untagged
@@ -1230,6 +1231,29 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   camera: {fileID: 2046546219593380481}
   followTarget: {fileID: 2046546219559431207}
+--- !u!114 &1521233370
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2046546219559431207}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/TankMotor
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &2046546219593380487
 GameObject:
   m_ObjectHideFlags: 0
@@ -4154,7 +4178,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046546220373377345}
-  - component: {fileID: 1342540471238955763}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -4176,29 +4199,6 @@ Transform:
   m_Father: {fileID: 2046546221273897213}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1342540471238955763
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046546220373377350}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1 &2046546220390575628
 GameObject:
   m_ObjectHideFlags: 0
@@ -5451,7 +5451,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046546220701050287}
-  - component: {fileID: 2641275053108637645}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5473,29 +5472,6 @@ Transform:
   m_Father: {fileID: 2046546220021506571}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &2641275053108637645
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046546220701050284}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1 &2046546220732164652
 GameObject:
   m_ObjectHideFlags: 0
@@ -5505,7 +5481,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046546220732164655}
-  - component: {fileID: 3589906918430653073}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -5527,29 +5502,6 @@ Transform:
   m_Father: {fileID: 2046546220174529256}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &3589906918430653073
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046546220732164652}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1 &2046546220753145866
 GameObject:
   m_ObjectHideFlags: 0
@@ -6987,7 +6939,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2046546221141098694}
-  - component: {fileID: 6822616046895235952}
   m_Layer: 0
   m_Name: GameObject
   m_TagString: Untagged
@@ -7009,29 +6960,6 @@ Transform:
   m_Father: {fileID: 2046546220843185579}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &6822616046895235952
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2046546221141098695}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!1 &2046546221156426605
 GameObject:
   m_ObjectHideFlags: 0
