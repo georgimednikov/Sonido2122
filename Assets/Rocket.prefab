@@ -5589,7 +5589,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/MissileTravel
+  Event: event:/Tank/MissileTravel
   PlayEvent: 1
   StopEvent: 2
   AllowFadeout: 1
@@ -5612,7 +5612,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/MissileImpact
+  Event: event:/Tank/MissileImpact
   PlayEvent: 2
   StopEvent: 0
   AllowFadeout: 1

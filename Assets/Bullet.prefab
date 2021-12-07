@@ -143,7 +143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   CollisionTag: 
-  Event: event:/BulletImpact
+  Event: event:/Tank/BulletImpact
   PlayEvent: 2
   StopEvent: 0
   AllowFadeout: 1

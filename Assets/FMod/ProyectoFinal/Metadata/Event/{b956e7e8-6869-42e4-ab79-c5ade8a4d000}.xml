@@ -8,7 +8,7 @@
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{ae189af2-e30d-4d60-a997-37046896f8e6}</destination>
+			<destination>{e9aa2890-df0e-4e65-b31b-8368ebcb8996}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{fe64dd7b-74e3-4209-8469-a26f3aa297e5}</destination>
@@ -92,7 +92,6 @@
 		<property name="length">
 			<value>0.70000000000000007</value>
 		</property>
-		<property name="name" />
 		<property name="playlistMode">
 			<value>1</value>
 		</property>
