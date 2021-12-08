@@ -11328,7 +11328,7 @@ MonoBehaviour:
   Params: []
   OverrideAttenuation: 0
   OverrideMinDistance: 1
-  OverrideMaxDistance: 80
+  OverrideMaxDistance: 70
 --- !u!65 &1675066775
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -20311,7 +20311,8 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 14.6
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: -8150895407679422409, guid: 0e7822c509ad06e4a9ce380c4a5c2612, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 0e7822c509ad06e4a9ce380c4a5c2612, type: 3}
 --- !u!1001 &1693847612820340995
 PrefabInstance:

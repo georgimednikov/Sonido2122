@@ -1,5 +1,27 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-9189423375070206876
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-8958224775410175940
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -199,6 +221,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 1
 --- !u!114 &-7930734118127578071
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-7855847734520102567
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -656,7 +700,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/FlyingMonster.bank
   Name: FlyingMonster
   StudioPath: bank:/FlyingMonster
-  lastModified: 637745566194499161
+  lastModified: 637745885748412664
   FileSizes:
   - Name: Desktop
     Value: 206624
@@ -808,7 +852,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 637745566195148837
+  lastModified: 637745885751614742
   FileSizes:
   - Name: Desktop
     Value: 1932
@@ -901,6 +945,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 1
+--- !u!114 &-5162590759852683300
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
 --- !u!114 &-4907071843825195219
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1049,7 +1115,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/TankEvents.bank
   Name: TankEvents
   StudioPath: bank:/TankEvents
-  lastModified: 637745566195619318
+  lastModified: 637745885752625608
   FileSizes:
   - Name: Desktop
     Value: 284256
@@ -1121,6 +1187,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 0
 --- !u!114 &-4351172749302907644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &-4173820173248042726
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1356,8 +1444,8 @@ MonoBehaviour:
   Path: event:/Tank/MissileTravel
   guid: e2e0240ba37ccc4fbf644da5b1d3f7c2
   Banks:
-  - {fileID: -4547847469423395886}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -2085,7 +2173,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/Bridge.bank
   Name: Bridge
   StudioPath: bank:/Bridge
-  lastModified: 637745566193998714
+  lastModified: 637745885745915357
   FileSizes:
   - Name: Desktop
     Value: 558144
@@ -2221,7 +2309,7 @@ MonoBehaviour:
   - {fileID: 8123522868498872635}
   StringsBanks:
   - {fileID: -5765972509641133979}
-  stringsBankWriteTime: 637745566195148837
+  stringsBankWriteTime: 637745885751614742
   cacheVersion: 8
 --- !u!114 &235593674581219625
 MonoBehaviour:
@@ -2730,6 +2818,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &1802611281306617342
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarFire/3D Audio
+  m_EditorClassIdentifier: 
+  Name: 3D Audio
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &1850845240779959747
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2811,17 +2921,61 @@ MonoBehaviour:
   Path: event:/Tank/TankMotor
   guid: a185fe5beb03f54dadf9a7626d1d7690
   Banks:
-  - {fileID: -4547847469423395886}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   IsStream: 0
   Is3D: 0
   IsOneShot: 0
   Parameters:
-  - {fileID: 9149895403773882710}
+  - {fileID: 7463819160644357097}
   MinDistance: 0
   MaxDistance: 0
   Length: 1719
 --- !u!114 &2426514849313523682
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &2787453048424416376
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &2849908513007573481
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -2974,7 +3128,7 @@ MonoBehaviour:
   IsOneShot: 0
   Parameters: []
   MinDistance: 1
-  MaxDistance: 80
+  MaxDistance: 85
   Length: 180
 --- !u!114 &3318580633132977092
 MonoBehaviour:
@@ -3103,8 +3257,8 @@ MonoBehaviour:
   Path: event:/Tank/MissileImpact
   guid: 91aec83710051842b4f791da46b60f26
   Banks:
-  - {fileID: -4547847469423395886}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3127,7 +3281,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/CarEvents.bank
   Name: CarEvents
   StudioPath: bank:/CarEvents
-  lastModified: 637745566194228914
+  lastModified: 637745885747486770
   FileSizes:
   - Name: Desktop
     Value: 341952
@@ -3147,8 +3301,8 @@ MonoBehaviour:
   Path: event:/Tank/TankShootsMissile
   guid: 4a3b9990ad73094a8cf65ade58e80333
   Banks:
-  - {fileID: -4547847469423395886}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -3863,7 +4017,7 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 0
   Parameters:
-  - {fileID: 929675986655044650}
+  - {fileID: 1802611281306617342}
   MinDistance: 0
   MaxDistance: 0
   Length: 22176
@@ -3911,6 +4065,28 @@ MonoBehaviour:
   Type: 0
   IsGlobal: 0
   Exists: 0
+--- !u!114 &7463819160644357097
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 1
 --- !u!114 &7579412263171699363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4124,7 +4300,7 @@ MonoBehaviour:
   Path: Assets/FMod/ProyectoFinal/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 637745566195108798
+  lastModified: 637745885751584707
   FileSizes:
   - Name: Desktop
     Value: 3157856
@@ -4342,8 +4518,8 @@ MonoBehaviour:
   Path: event:/Tank/BulletImpact
   guid: d46735415c771e478919266e93d1f794
   Banks:
-  - {fileID: -4547847469423395886}
   - {fileID: 8123522868498872635}
+  - {fileID: -4547847469423395886}
   IsStream: 0
   Is3D: 1
   IsOneShot: 1
@@ -4364,6 +4540,28 @@ MonoBehaviour:
   m_Name: parameter:/TankMotor/Velocity
   m_EditorClassIdentifier: 
   Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8810865516771926735
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/CarFire/3D Audio
+  m_EditorClassIdentifier: 
+  Name: 3D Audio
   Min: 0
   Max: 1
   Default: 0
@@ -4418,6 +4616,28 @@ MonoBehaviour:
   IsGlobal: 0
   Exists: 0
 --- !u!114 &8831600945859005470
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/TankMotor/Velocity
+  m_EditorClassIdentifier: 
+  Name: Velocity
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 0
+    data2: 0
+  Type: 0
+  IsGlobal: 0
+  Exists: 0
+--- !u!114 &8872349520046209359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
