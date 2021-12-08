@@ -6,7 +6,7 @@ public class DestroyOnHit : MonoBehaviour
 {
     public Terraformer terraformer;
     public float strength = 10, radius = 3;
-    public ParticleSystem impactParticles;
+    public GameObject impactParticles;
 
     protected void Start()
     {
@@ -15,6 +15,7 @@ public class DestroyOnHit : MonoBehaviour
     protected void OnCollisionEnter(Collision collision)
     {
         terraformer?.terraform(collision.GetContact(0).point, radius, strength);
+        if (impactParticles != null) Instantiate(impactParticles, transform.position, Quaternion.identity);
         Destroy(gameObject);
     }
 }

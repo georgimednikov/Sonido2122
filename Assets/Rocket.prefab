@@ -135,7 +135,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 719480424269222022}
   serializedVersion: 7
-  lengthInSec: 5
+  lengthInSec: 1
   simulationSpeed: 1
   stopAction: 0
   cullingMode: 0
@@ -210,7 +210,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 5
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -5290,7 +5290,6 @@ GameObject:
   m_Component:
   - component: {fileID: 6229171794072403912}
   - component: {fileID: 6229171794072403913}
-  - component: {fileID: 8650555808681794910}
   - component: {fileID: 7545125800821772363}
   - component: {fileID: 6229171794072403918}
   - component: {fileID: 8628593256531780333}
@@ -5379,29 +5378,6 @@ MonoBehaviour:
     tab3: 0
     tab4: 0
   objectiveFoldout: 1
---- !u!114 &8650555808681794910
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6229171794072403919}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  CollisionTag: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!114 &7545125800821772363
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5558,7 +5534,7 @@ MonoBehaviour:
   terraformer: {fileID: 0}
   strength: 10
   radius: 3
-  impactParticles: {fileID: 0}
+  impactParticles: {fileID: 1567441640016124830, guid: 0e7822c509ad06e4a9ce380c4a5c2612, type: 3}
   angleDeviation: 5
 --- !u!54 &-1843267261287268421
 Rigidbody:

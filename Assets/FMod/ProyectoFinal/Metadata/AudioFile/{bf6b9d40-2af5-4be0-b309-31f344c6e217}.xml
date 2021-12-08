@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="AudioFile" id="{bf6b9d40-2af5-4be0-b309-31f344c6e217}">
+		<property name="assetPath">
+			<value>Bridge/Soldiers/SoldiersGun1End.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>44.0999985</value>
+		</property>
+		<property name="channelCount">
+			<value>2</value>
+		</property>
+		<property name="length">
+			<value>0.34088435374149662</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cb538abe-f505-4b48-996a-661d66508e01}</destination>
+		</relationship>
+	</object>
+</objects>

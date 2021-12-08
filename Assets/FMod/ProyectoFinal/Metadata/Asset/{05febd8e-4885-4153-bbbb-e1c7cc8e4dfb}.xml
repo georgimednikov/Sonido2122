@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.01.00">
+	<object class="EncodableAsset" id="{05febd8e-4885-4153-bbbb-e1c7cc8e4dfb}">
+		<property name="assetPath">
+			<value>Bridge/Soldiers/</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{cb538abe-f505-4b48-996a-661d66508e01}</destination>
+		</relationship>
+	</object>
+</objects>

@@ -101,6 +101,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{57c1a006-439c-4b34-bac9-ca015af0f1ac}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{2f056f7c-6e85-4cf5-b538-5f16f0583dd5}</destination>
 		</relationship>
@@ -153,6 +156,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerReturn" id="{ed2d35e0-cfc0-4bc6-8e19-c9105be720e9}">
+		<property name="volume">
+			<value>5</value>
+		</property>
 		<property name="name">
 			<value>2D Audio</value>
 		</property>
@@ -167,6 +173,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerReturn" id="{dbfa1d8d-1498-4921-a170-778d192e9823}">
+		<property name="volume">
+			<value>6.5</value>
+		</property>
 		<property name="name">
 			<value>3D Audio</value>
 		</property>
@@ -254,7 +263,14 @@
 	<object class="MixerBusFader" id="{17b1910c-b09f-4b32-a1b4-f1a9b7a5e1c9}" />
 	<object class="MixerBusFader" id="{577d44c5-c524-4749-908b-3688e46af898}" />
 	<object class="MixerBusFader" id="{0ce53cb6-11b9-4a41-ab2c-ffee9d6e7b4d}" />
-	<object class="SpatialiserEffect" id="{114bf9c9-13d7-46fe-ba3d-61ed95062e42}" />
+	<object class="SpatialiserEffect" id="{114bf9c9-13d7-46fe-ba3d-61ed95062e42}">
+		<property name="minimumDistance">
+			<value>0</value>
+		</property>
+		<property name="maximumDistance">
+			<value>75</value>
+		</property>
+	</object>
 	<object class="Automator" id="{01d94fc1-2a2f-4d1d-b1a6-5d748805b2d3}">
 		<property name="nameOfPropertyBeingAutomated">
 			<value>level</value>

@@ -24,6 +24,5 @@ public class AudioDimensionCalculator : MonoBehaviour
         else if (dist >= secondRadius) value = 1;
         else value = (dist - firstRadius) / (secondRadius - firstRadius);
         audioEvent.SetParameter("3D Audio", value);
-        Debug.Log(dist);
     }
 }

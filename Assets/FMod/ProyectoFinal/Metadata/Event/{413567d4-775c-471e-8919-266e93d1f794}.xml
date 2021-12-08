@@ -73,6 +73,9 @@
 		</relationship>
 	</object>
 	<object class="EventMixerMaster" id="{fe8753e6-32f0-4a10-9bd9-8dd12a7d1e45}">
+		<property name="volume">
+			<value>4.5</value>
+		</property>
 		<relationship name="effectChain">
 			<destination>{e29e79c4-c6fb-402f-85dd-19d65d2f3670}</destination>
 		</relationship>
@@ -102,7 +105,7 @@
 	</object>
 	<object class="EventMixerGroup" id="{7afd03c8-621b-445e-b9fc-05c907834f80}">
 		<property name="volume">
-			<value>9.5</value>
+			<value>10</value>
 		</property>
 		<property name="name">
 			<value>Audio 1</value>
@@ -161,7 +164,11 @@
 		</relationship>
 	</object>
 	<object class="MixerBusFader" id="{4704d7e8-a5a4-4bd0-a21c-4e65856d5308}" />
-	<object class="SpatialiserEffect" id="{d0301f98-9643-4028-921e-ccece7e5739d}" />
+	<object class="SpatialiserEffect" id="{d0301f98-9643-4028-921e-ccece7e5739d}">
+		<property name="maximumDistance">
+			<value>25</value>
+		</property>
+	</object>
 	<object class="MixerBusFader" id="{f8873e25-78b4-412b-adf7-d03ca5f71d12}" />
 	<object class="RandomizerModulator" id="{5d4098d0-7fb8-4141-aaef-2d0ed33be717}">
 		<property name="nameOfPropertyBeingModulated">
