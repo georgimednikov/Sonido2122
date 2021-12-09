@@ -23,7 +23,7 @@ public class ParticleBurstEvent : MonoBehaviour
         timeElapsed += Time.deltaTime;
         if (timeElapsed + timeBeforeStart >= timeCicle)
         {
-            timeElapsed -= timeCicle;
+            timeElapsed = 0;
             audioEvent.Play();
         }
     }

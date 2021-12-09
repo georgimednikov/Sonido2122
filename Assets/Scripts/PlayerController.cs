@@ -87,8 +87,8 @@ public class PlayerController : MonoBehaviour
         posY /= legs.Length;
 
         transform.position = new Vector3(transform.position.x, posY + restHeight, transform.position.z);
-        //motorAudio.SetParameter("Velocity", Mathf.Max(0, Mathf.Min(1, rb.velocity.magnitude / 1)));
-        //Debug.Log(rb.velocity.magnitude);
+        Vector2 vel =  new Vector2(rb.velocity.x, rb.velocity.z);
+        motorAudio.SetParameter("Velocity", Mathf.Max(0, Mathf.Min(1, (vel.magnitude * 100) / speed)));
     }
 
     float CannonUpdate(Vector3 objPos)

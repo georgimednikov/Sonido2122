@@ -1,12 +1,15 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using FMODUnity;
 
 public class ToGround : MonoBehaviour
 {
     public GameObject inverseTarget;
     public ToGround otherLeg;
     public float stepHeight = 2, stepDistance = 2;
+    public StudioEventEmitter stomp;
+    public StudioEventEmitter legMoving;
 
     Vector3 initialPos;
     float t = 0;
@@ -38,11 +41,15 @@ public class ToGround : MonoBehaviour
 
         if (moving)
         {
-            if(t <= 1) inverseTarget.transform.position = Vector3.Lerp(initialPos, (initialPos + transform.position) / 2 + transform.up * 0.2f, t);
+            if (!legMoving.IsPlaying())
+                legMoving.Play();
+
+            if (t <= 1) inverseTarget.transform.position = Vector3.Lerp(initialPos, (initialPos + transform.position) / 2 + transform.up * 0.2f, t);
             else inverseTarget.transform.position = Vector3.Lerp((initialPos + transform.position) / 2 + transform.up * 0.2f, transform.position, t - 1);
             t += 0.05f;
             if ((t >= 2))
             {
+                stomp.Play();
                 moving = false;
                 t = 0;
             }
