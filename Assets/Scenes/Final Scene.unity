@@ -2844,7 +2844,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 383684805}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -4193,6 +4193,49 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!1 &641022129 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1567441640016124830, guid: 0e7822c509ad06e4a9ce380c4a5c2612, type: 3}
+  m_PrefabInstance: {fileID: 1569039839400659948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &641022131
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641022129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  Event: event:/Car/CarFire
+  PlayEvent: 1
+  StopEvent: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 0
+  OverrideMaxDistance: 0
+--- !u!114 &641022132
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 641022129}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e15e48273a2db974089bef8f402b9faa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  objective: {fileID: 1169349764}
+  firstRadius: 15
+  secondRadius: 30
 --- !u!1001 &666326513
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6982,6 +7025,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 6891351031230922471, guid: 302c10c91af28cf46bae42b40fa5eec3, type: 3}
   m_PrefabInstance: {fileID: 1155250835}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &1169349764 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 2046546220651652786, guid: 353c5991e9c17c344891c81629f6e63f, type: 3}
+  m_PrefabInstance: {fileID: 2041268973}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1169739759
 PrefabInstance:
@@ -10369,7 +10417,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1506536007}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -11432,7 +11480,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675066772}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 307278db34b87424290cf6a4b951ffc4, type: 3}
   m_Name: 
@@ -11449,7 +11497,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1675066772}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
@@ -18750,6 +18798,14 @@ PrefabInstance:
       propertyPath: legMoving
       value: 
       objectReference: {fileID: 1992091909}
+    - target: {fileID: 2046546219559431200, guid: 353c5991e9c17c344891c81629f6e63f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2046546219559431201, guid: 353c5991e9c17c344891c81629f6e63f, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2046546219598672511, guid: 353c5991e9c17c344891c81629f6e63f, type: 3}
       propertyPath: weapons.Array.size
       value: 3
